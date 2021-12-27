@@ -1,0 +1,3 @@
+
+select * from employee_payroll
+where start between CAST('2018-01-01' as DATE) AND DATE(NOW());
